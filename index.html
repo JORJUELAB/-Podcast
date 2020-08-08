@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Podcast</title> 
+</head>
+<body>
+    <header>
+        <div><img src="assets/logo.svg" alt="logo" id="logo"> 
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><img src="assets/bars-solid.svg" class="m" alt="menu">
+                <img src="assets/times-solid.svg" class="x" alt="xmenu"> 
+            </label>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#episodios">EPISODIOS</a></li>
+                        <li><a href="#history">NOSOTROS</a></li>
+                        <li><a href="#entrevistas">ENTREVISTAS</a></li>
+                        <li><a href="#iconos">TOPICOS</a></li>
+                    </ul>
+                </nav>
+                <h1>Hello <del>world</del> pale blue dot<span class="punto">.</span></h1>  
+                <div id="texto1"><p>El portal de podcasts que explora el mundo de la programación<span class id="texto2"> y la tecnología</span>. 
+                    Nuevos episodios, todos los jueves cada 15 días.</p>
+                </div>
+                    <button type="button" onclick="window.location.href='#iconos'" value="link1" id="boton1">CONOCÉ MÁS</button>
+        </div>
+    </header>   
+    <main>
+        <div id="episodios">
+            <h2>Episodios</h2>
+            <div class="iframe-container">
+                <iframe src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/show/2Iibd5A6R7mxkCm4NwNmUn"  allow="encrypted-media"></iframe>
+            </div>           
+        </div>
+        <div id="nosotros">
+            <div class="phone"><img src="assets/phone.png" alt="phone"></div>
+            <div id="history">
+                <h3>De dónde venimos</h3>
+                <p>Our posturings, our imagined self-importance, the desilusion taht we have some priviliged position in the Universe, are challenged by this point of plae light. <br>Our planet 
+                is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                </p>
+            </div>   
+        </div>
+        <div id="entrevistas">
+            <h4>Invitadas/os estelares</h4>
+            <div class="invitados">
+                <img src="assets/grace-hopper.png" alt="grace-hopper" class="imagenes">
+                <img src="assets/bouman.png" alt="Katie-Bouman" class="imagenes">
+                <img src="assets/hamilton.png" alt="Margaret_Hamilton" class="imagenes">
+                <img src="assets/era.png" alt="E.R.A" class="imagenes">
+                <img src="assets/computer.png" alt="co" class="imagenes">
+                <img src="assets/susan-kare.png" alt="susan-kare" class="imagenes">
+            </div>  
+        </div>
+        <div id="iconos">
+            <h5>Algunos de nuestros temas</h5>
+            <div class="temas">
+                <div class="icono"><img src="assets/icon1.svg" alt="icono1" ><br><p>Trabajo remoto</p></div>
+                <div class="icono"><img src="assets/icon2.svg" alt="icono2"><br><p>Repensando <br>la programación</p></div>
+                <div class="icono"><img src="assets/icon3.svg" alt="icono3"><br><p>Bases del código</p></div>
+                <div class="icono"><img src="assets/icon4.svg" alt="icono4"><br><p>Seguridad informática</p></div>
+            </div>
+        </div>
+        <div id="novedades">
+            <div class="diag"></div>
+            <h6>¿Querés las últimas novedades?</h6>
+            <button type="button" onclick="window.location.href='#episodios'" value="link2" id="boton2">ESCUCHÁ LOS EPISODIOS</button>
+        </div>
+    </main>
+    <footer>
+        <div id="ftext">
+            <p>© 2019— Hello blue pale dot</p>
+        </div>
+        <div id="socialm">
+            <a class="fab fa-spotify" href="https://www.spotify.com/co/" target="blank"></a><!--f1bc-->
+            <a class="fab fa-instagram" href="https://www.instagram.com/?hl=es-la/" target="blank"></a><!--f16d-->
+            <a class="fab fa-twitter" href="https://twitter.com/explore" target="blank"></a><!--f099-->
+            <a class="fab fa-facebook" href="https://www.facebook.com/" target="blank"></a><!--f09a-->
+            <a class="fab fa-telegram" href="https://web.telegram.org/#/login" target="blank"></a><!--f2c6-->
+        </div>
+    </footer>
+</body>
+</html>
